@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pour les kinésithérapeutes en Belgique : agenda du cabinet, rendez-vous en ligne et dossier patient avec le suivi des séances.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Agenda Kiné</a></div>
-  <nav class="top"><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Agenda Kiné</a>
+  <nav><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>L'agenda et le dossier patient de votre cabinet de kiné, au même endroit</h1>
-    <p class="sub">Pour les kinésithérapeutes indépendants et les petits cabinets en Belgique : l'agenda de chaque kiné, la prise de rendez-vous en ligne avec rappel, et le dossier de chaque patient avec la prescription, le bilan et le suivi des séances.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">J'en ai besoin</a>
-    <p class="cta-note">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pour les kinésithérapeutes indépendants</p>
+      <h1 class="rise" style="--i:1" data-len="long">L'agenda et le dossier patient de votre cabinet de kiné, au même endroit</h1>
+      <p class="rise" style="--i:2">Pour les kinésithérapeutes indépendants et les petits cabinets en Belgique : l'agenda de chaque kiné, la prise de rendez-vous en ligne avec rappel, et le dossier de chaque patient avec la prescription, le bilan et le suivi des séances.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">J'en ai besoin</a>
+      <p class="meta rise" style="--i:4">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">Agenda</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="260" width="140" height="100" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="290" y="260" width="140" height="100" rx="12" fill="#12397a" /><rect x="450" y="260" width="140" height="100" rx="12" fill="#dde2ea" /><rect x="130" y="390" width="140" height="100" rx="12" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="290" y="390" width="140" height="100" rx="12" fill="#b9c3d2" /><rect x="450" y="390" width="140" height="100" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="150" y="560" font-size="32" fill="#0a1524">chaque kiné</text><rect x="680" y="260" width="390" height="400" rx="20" fill="#dfe8f7" /><text x="720" y="340" font-size="32" font-weight="600" fill="#0a1524">Dossier patient</text><rect x="720" y="390" width="300" height="28" rx="10" fill="#ffffff" /><rect x="720" y="450" width="240" height="28" rx="10" fill="#ffffff" /><rect x="720" y="510" width="270" height="28" rx="10" fill="#12397a" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pour</dt><dd>Kinésithérapeutes indépendants</dd></div>
+      <div><dt>Agenda</dt><dd>Prise de rendez-vous</dd></div>
+      <div><dt>Dossier</dt><dd>Dossier patient</dd></div>
+      <div><dt>Accès</dt><dd>Accès anticipé</dd></div>
+    </dl>
+  </section>
 
   <section id="quoi" data-view="features_view">
-    <h2>Ce que vous obtenez</h2>
-    <div class="grid">
-      <div class="card"><b>Agenda</b><span>L'agenda de chaque kiné, avec durées des séances et pauses.</span><br><a class="btn" href="price.html" data-ev="feature_agenda">J'en ai besoin</a></div>
-      <div class="card"><b>Rendez-vous en ligne</b><span>Les patients réservent eux-mêmes et reçoivent un rappel avant la séance.</span><br><a class="btn" href="price.html" data-ev="feature_rdv">J'en ai besoin</a></div>
-      <div class="card"><b>Dossier patient</b><span>Prescription, bilan, objectifs et notes de chaque séance.</span><br><a class="btn" href="price.html" data-ev="feature_dossier">J'en ai besoin</a></div>
-      <div class="card"><b>Suivi des séances</b><span>Le nombre de séances faites et restantes sur chaque prescription.</span><br><a class="btn" href="price.html" data-ev="feature_seances">J'en ai besoin</a></div>
+    <div class="stack"><h2>Ce que vous obtenez</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">chaque kiné</text><rect x="140" y="210" width="110" height="80" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="210" width="110" height="80" rx="10" fill="#12397a" /><rect x="400" y="210" width="110" height="80" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="210" width="110" height="80" rx="10" fill="#dde2ea" /><rect x="140" y="320" width="110" height="80" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="320" width="110" height="80" rx="10" fill="#b9c3d2" /><rect x="400" y="320" width="110" height="80" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="320" width="110" height="80" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="140" y="430" width="500" height="36" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Agenda</h3><p>L'agenda de chaque kiné, avec durées des séances et pauses.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_agenda">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="145" font-size="32" font-weight="600" fill="#0a1524">Rendez-vous en ligne</text><rect x="140" y="210" width="360" height="140" rx="18" fill="#dfe8f7" /><rect x="170" y="250" width="240" height="24" rx="8" fill="#ffffff" /><rect x="170" y="294" width="180" height="24" rx="8" fill="#12397a" /><polygon points="180,350 230,350 200,390" fill="#dfe8f7" /><rect x="140" y="430" width="480" height="50" rx="16" fill="#dde2ea" /></svg></div>
+        <h3>Rendez-vous en ligne</h3><p>Les patients réservent eux-mêmes et reçoivent un rappel avant la séance.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_rdv">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="150" y="70" width="500" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="150" font-size="36" font-weight="600" fill="#0a1524">Dossier patient</text><rect x="190" y="200" width="400" height="22" rx="8" fill="#dde2ea" /><rect x="190" y="250" width="340" height="22" rx="8" fill="#b9c3d2" /><rect x="190" y="300" width="380" height="22" rx="8" fill="#dde2ea" /><rect x="190" y="350" width="280" height="22" rx="8" fill="#dde2ea" /><circle cx="500" cy="450" r="48" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="474,450 492,470 530,418" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Dossier patient</h3><p>Prescription, bilan, objectifs et notes de chaque séance.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dossier">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Suivi des séances</text><line x1="150" y1="460" x2="660" y2="460" stroke="#dde2ea" stroke-width="4" fill="none" /><rect x="180" y="340" width="70" height="120" rx="8" fill="#dde2ea" /><rect x="290" y="260" width="70" height="200" rx="8" fill="#b9c3d2" /><rect x="400" y="220" width="70" height="240" rx="8" fill="#12397a" /><rect x="510" y="300" width="70" height="160" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Suivi des séances</h3><p>Le nombre de séances faites et restantes sur chaque prescription.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_seances">J'en ai besoin</a>
+      </article>
     </div>
   </section>
 
-  <section id="exemple" data-view="example_view">
-    <h2>Exemple (données fictives)</h2>
-    <p class="fine">Cabinet de deux kinés à Namur, 30 patients par jour. Une patiente réserve en ligne sa 4e séance sur une prescription de 9 ; la veille, elle reçoit un rappel. Pendant la séance, le kiné ouvre son dossier : bilan initial, notes des trois séances précédentes, et il voit qu'il reste 5 séances.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choisir une formule</a>
+  <section id="exemple" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exemple</h2>
+      <p>Cabinet de deux kinés à Namur, 30 patients par jour. Une patiente réserve en ligne sa 4e séance sur une prescription de 9 ; la veille, elle reçoit un rappel. Pendant la séance, le kiné ouvre son dossier : bilan initial, notes des trois séances précédentes, et il voit qu'il reste 5 séances.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choisir une formule</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">en ligne</text><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">un rappel</text><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">5 séances</text><rect x="140" y="320" width="920" height="380" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="420" font-size="36" font-weight="600" fill="#0a1524">son dossier</text><rect x="190" y="480" width="640" height="32" rx="10" fill="#dde2ea" /><rect x="190" y="540" width="500" height="32" rx="10" fill="#b9c3d2" /><rect x="190" y="600" width="360" height="32" rx="10" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Comment ça marche</h2>
-    <p>En Belgique, plusieurs dizaines de milliers de kinésithérapeutes ont une pratique attestée auprès de l'INAMI, et beaucoup travaillent seuls ou dans un petit cabinet. La journée se partage entre les séances, le téléphone pour les rendez-vous et les notes à écrire entre deux patients. Quand l'agenda et les dossiers vivent dans des outils différents, chaque information est recopiée plusieurs fois.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Comment ça marche</h2></div>
+    <div class="stack">
+      <p>En Belgique, plusieurs dizaines de milliers de kinésithérapeutes ont une pratique attestée auprès de l'INAMI, et beaucoup travaillent seuls ou dans un petit cabinet. La journée se partage entre les séances, le téléphone pour les rendez-vous et les notes à écrire entre deux patients. Quand l'agenda et les dossiers vivent dans des outils différents, chaque information est recopiée plusieurs fois.</p>
     <p>Ce service réunit l'agenda et le dossier patient. Vous créez les types de séances avec leur durée, l'horaire de chaque kiné et ses pauses. Les rendez-vous pris par téléphone et ceux pris en ligne arrivent dans le même agenda, et aucun créneau n'est réservé deux fois.</p>
     <p>Les patients peuvent prendre rendez-vous eux-mêmes, en ligne, à toute heure : ils choisissent le kiné, le type de séance et l'horaire libre. La veille, ils reçoivent un rappel avec l'heure et l'adresse du cabinet, et peuvent annuler par le lien du message ; le créneau libéré redevient disponible.</p>
     <p>Chaque patient a son dossier : la prescription avec le nombre de séances, le bilan initial, les objectifs, les notes de chaque séance et les documents que vous ajoutez. Pendant la séance, vous retrouvez en un clic ce qui a été fait la dernière fois et ce qui était prévu.</p>
@@ -113,31 +147,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Le service fonctionne dans le navigateur et sur téléphone, sans installation. Les données restent dans l'espace du cabinet et peuvent être exportées à tout moment. Pour commencer, une soirée suffit : types de séances, horaires, puis la liste de vos patients actuels depuis un tableau.</p>
     <p>En fin de semaine, vous voyez combien de séances ont été données, combien ont été annulées et combien de patients ont une prescription qui se termine bientôt. Cela aide à organiser la semaine suivante et à repérer les créneaux qui restent souvent vides.</p>
     <p>Le service est destiné aux kinésithérapeutes indépendants et aux cabinets de quelques kinés en Belgique. Il est en préparation : nous vérifions d'abord si les kinés en ont besoin. Le kinésithérapeute reste responsable du contenu du dossier et de ses obligations envers l'INAMI.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions fréquentes</h2>
-    <h3>Pour qui est cet outil ?</h3>
-    <p>Pour les kinésithérapeutes indépendants et les petits cabinets de kiné en Belgique.</p>
-    <h3>Les patients peuvent-ils réserver en ligne ?</h3>
-    <p>Oui, à toute heure, avec un rappel la veille et la possibilité d'annuler.</p>
-    <h3>Que contient le dossier patient ?</h3>
-    <p>La prescription, le bilan, les objectifs, les notes de chaque séance et les documents ajoutés.</p>
-    <h3>Faut-il installer quelque chose ?</h3>
-    <p>Non, l'outil fonctionne dans le navigateur et sur téléphone.</p>
-    <h3>Puis-je déjà l'utiliser ?</h3>
-    <p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux kinés.</p>
+    <div class="stack"><h2>Questions fréquentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Pour qui est cet outil ?</h3><p>Pour les kinésithérapeutes indépendants et les petits cabinets de kiné en Belgique.</p></div>
+      <div class="split flip"><h3>Les patients peuvent-ils réserver en ligne ?</h3><p>Oui, à toute heure, avec un rappel la veille et la possibilité d'annuler.</p></div>
+      <div class="split flip"><h3>Que contient le dossier patient ?</h3><p>La prescription, le bilan, les objectifs, les notes de chaque séance et les documents ajoutés.</p></div>
+      <div class="split flip"><h3>Faut-il installer quelque chose ?</h3><p>Non, l'outil fonctionne dans le navigateur et sur téléphone.</p></div>
+      <div class="split flip"><h3>Puis-je déjà l'utiliser ?</h3><p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux kinés.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Créez votre cabinet</h2>
-    <p><label>Nombre de kinés au cabinet<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— choisissez —</option><option>1</option><option>2–3</option><option>4–6</option><option>Plus de 6</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Commencer</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Créez votre cabinet</h2>
+    </div>
+    <div class="tile stack">
+      <label>Nombre de kinés au cabinet<select data-ev-focus="form_start"><option value="">— choisissez —</option><option>1</option><option>2–3</option><option>4–6</option><option>Plus de 6</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Commencer</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Agenda Kiné</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Confidentialité</a></p>
-  <p class="muted">Agenda et dossier patient pour votre cabinet. Le kinésithérapeute reste responsable du dossier et de ses obligations.</p>
+  <p>Agenda et dossier patient pour votre cabinet. Le kinésithérapeute reste responsable du dossier et de ses obligations.</p>
 </div></footer>
 
 </body>
